@@ -31,6 +31,18 @@ public:
 };
 ```
 
+```txt
+Welcome to the employee management systom!
+0. Exit the management program
+1. Add employee information
+2. Display employee information
+3. Delete job-hopping employees
+4. Modify employee information
+5. Find employee information
+6. Sort by number
+7. Clear all documentsy
+
+```
 ## 代码复用
 
 将 `WorkerManager` 类的声明放在头文件中，方便在多个源文件中调用，提高了代码的复用性。
